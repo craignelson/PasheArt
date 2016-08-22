@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.pasheart"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.pasheart"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.pasheart"
+        }
+    }
+}
