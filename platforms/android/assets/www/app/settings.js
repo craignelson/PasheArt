@@ -15,7 +15,7 @@ Drupal.settings.debug = true;
 /* DRUPAL PATHS */
  
 // Site Path (do not use a trailing slash)
-Drupal.settings.site_path = 'http://pasheart.co.uk/web'; // e.g. http://www.example.com
+Drupal.settings.site_path = 'http://pasheart.co.uk/web/'; // e.g. http://www.example.com
 
 // Default Services Endpoint Path
 Drupal.settings.endpoint = 'drupalgap';
@@ -102,7 +102,7 @@ Drupal.settings.cache.views = {
 // DrupalGap Mode (defaults to 'web-app')
 //  'web-app' - use this mode to build a web application for a browser window
 //  'phonegap' - use this mode to build a mobile application with phonegap
-drupalgap.settings.mode = 'web-app';
+drupalgap.settings.mode = 'phonegap';
 
 // Language Files - locale/[language-code].json
 drupalgap.settings.locale = {
@@ -114,16 +114,16 @@ drupalgap.settings.locale = {
  *************/
 
 // App Title
-drupalgap.settings.title = 'DrupalGap';
+drupalgap.settings.title = 'PASHE ART';
  
 // App Front Page
 drupalgap.settings.front = 'dashboard';
 
 // Theme
-drupalgap.settings.theme = 'easystreet3';
+drupalgap.settings.theme = 'pasheart';
 
 // Logo
-drupalgap.settings.logo = 'themes/easystreet3/images/drupalgap.jpg';
+drupalgap.settings.logo = 'app/themes/pasheart/images/drupalgap.jpg';
 
 // Offline Warning Message. Set to false to hide message.
 drupalgap.settings.offline_message = 'No connection found!';
@@ -291,6 +291,38 @@ drupalgap.settings.blocks.easystreet3 = {
   }
 };
 
+
+// Easy Street 3 Theme Blocks
+drupalgap.settings.blocks.pasheart = {
+  header: {
+    user_menu_anonymous: {
+      roles: {
+        value: ['anonymous user'],
+        mode: 'include',
+      }
+    },
+    user_menu_authenticated: {
+      roles: {
+        value: ['authenticated user'],
+        mode: 'include',
+      }
+    },
+    main_menu: { }
+  },
+  sub_header: {
+    title: { }
+  },
+  navigation: {
+    primary_local_tasks: { }
+  },
+  content: {
+    messages: { },
+    main: { }
+  },
+  footer: {
+    
+  }
+};
 /****************************************************|
  * Region Menu Links - http://drupalgap.org/node/173 |
  ****************************************************/
